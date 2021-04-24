@@ -1,1 +1,2 @@
-# vRPToEsx
+# vRPToEsx Lisans Haklarınca Bana Ayittir.
+

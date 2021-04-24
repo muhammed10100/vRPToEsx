@@ -11,6 +11,7 @@ vRP.getUserByRegistration()
 ESX.GetPlayerFromIdentifier()
 ```
 --------------------------------------------------------------------------------------------------
+Server dosya oyuncu çektirme.
 ```lua
 vRP.getUserId()
 ```

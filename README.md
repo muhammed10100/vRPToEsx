@@ -1,6 +1,7 @@
 # vRPToEsx Lisans Haklarınca Bana Ayittir.
 
 --------------------------------------------------------------------------------------------------
+
 ```lua
 vRP.getUserByRegistration()
 ```
@@ -11,6 +12,7 @@ vRP.getUserByRegistration()
 ESX.GetPlayerFromIdentifier()
 ```
 --------------------------------------------------------------------------------------------------
+
 Server dosya oyuncu çektirme.
 ```lua
 vRP.getUserId()
@@ -22,6 +24,7 @@ vRP.getUserId()
 ESX.GetPlayerFromId()
 ```
 --------------------------------------------------------------------------------------------------
+
 ```lua
 vRP.getUserDataTable()
 ```
@@ -33,6 +36,27 @@ ESX.GetPlayerData()
 ```
 --------------------------------------------------------------------------------------------------
 
+```lua
+vRP.computeItemsWeight()
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+xPlayer.setMaxWeight()
+```
+--------------------------------------------------------------------------------------------------
+
+```lua
+vRP.getItemWeight()
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+xPlayer.getWeight()
+```
+--------------------------------------------------------------------------------------------------
 
 
 

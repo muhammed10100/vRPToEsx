@@ -4,7 +4,6 @@
 --------------------------------------------------------------------------------------------------
 Not bu kısmı  en üst kısmı full silin ve esx kısmını yapıştırın 
 ```lua
-MySQL = module("vrp_mysql", "MySQL")
 local Tunnel = module("vrp", "lib/Tunnel")
 local Proxy = module("vrp", "lib/Proxy")
 
@@ -118,5 +117,34 @@ vRP.hasPermission()
 xPlayer.getGroup()
 ```
 --------------------------------------------------------------------------------------------------
+
+```lua
+vRP.tryFullPayment()
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+-- test edilcek
+xPlayer.getMoney()
+```
+--------------------------------------------------------------------------------------------------
+ANİMASYON KSIMI SİZDE ÖRNEK VERDİM --- pek animasonlardan anlamam ama gerise bende :D.
+
+```lua
+vRP.playAnim(false,{{"mini@repair","fixing_a_player"}},true)
+vRP.stopAnim(false)
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+https://docs.fivem.net/natives/?_0x9A2D0FB2E7852392
+```lua
+-- devamı gelcek
+StopAnimTask(GetPlayerPed(-1), "mini@repair", "fixing_a_player", 1.0)
+```
+--------------------------------------------------------------------------------------------------
+
+
 
 

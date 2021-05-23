@@ -1,6 +1,8 @@
 # vRPToEsx Lisans Haklarınca Bana Ayittir.
 # BENİM İZNİM OLMADAN BAŞKA BİR YERDE PAYLAŞILMASI YASAK.
 
+--------------------------------------------------------------------------------------------------
+
 ```lua
 MySQL = module("vrp_mysql", "MySQL")
 local Tunnel = module("vrp", "lib/Tunnel")
@@ -21,6 +23,19 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
     end
 end)
+```
+
+
+--------------------------------------------------------------------------------------------------
+bildirim kısmı
+```lua
+vRPclient.notify(player,{"Örnek"})
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+TriggerEvent('Notification',"Örnek.")
 ```
 
 --------------------------------------------------------------------------------------------------

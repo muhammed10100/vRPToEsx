@@ -1,6 +1,28 @@
 # vRPToEsx Lisans Haklarınca Bana Ayittir.
 # BENİM İZNİM OLMADAN BAŞKA BİR YERDE PAYLAŞILMASI YASAK.
 
+```lua
+MySQL = module("vrp_mysql", "MySQL")
+local Tunnel = module("vrp", "lib/Tunnel")
+local Proxy = module("vrp", "lib/Proxy")
+
+vRP = Proxy.getInterface("vRP")
+vRPclient = Tunnel.getInterface("vRP","vrp_license")
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+ESX = nil
+
+Citizen.CreateThread(function()
+    while ESX == nil do
+        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+        Citizen.Wait(0)
+    end
+end)
+```
+
 --------------------------------------------------------------------------------------------------
 
 ```lua

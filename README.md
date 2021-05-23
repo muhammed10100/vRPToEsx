@@ -2,7 +2,7 @@
 # BENİM İZNİM OLMADAN BAŞKA BİR YERDE PAYLAŞILMASI YASAK.
 
 --------------------------------------------------------------------------------------------------
-
+Not bu kısmı  en üst kısmı full silin ve esx kısmını yapıştırın 
 ```lua
 MySQL = module("vrp_mysql", "MySQL")
 local Tunnel = module("vrp", "lib/Tunnel")

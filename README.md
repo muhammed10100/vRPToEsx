@@ -26,6 +26,18 @@ end)
 ```
 
 --------------------------------------------------------------------------------------------------
+
+```lua
+  self:triggerEvent("ÖrenkCektirtme")
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+   xPlayer.triggerEvent("ÖrenkCektirtme")
+```
+
+--------------------------------------------------------------------------------------------------
 --Bildirim Kısmı --
 ```lua
 vRPclient.notify(player,{"Örnek"})

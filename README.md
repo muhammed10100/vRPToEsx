@@ -25,9 +25,9 @@ Citizen.CreateThread(function()
 end)
 ```
 
-
 --------------------------------------------------------------------------------------------------
-bildirim kısmı
+
+
 ```lua
 vRPclient.notify(player,{"Örnek"})
 ```

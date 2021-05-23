@@ -142,6 +142,18 @@ ESX.SetPlayerData()
 ```
 
 --------------------------------------------------------------------------------------------------
+
+```lua
+vRP.kick(source, "Yazı <-> Text")
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+xPlayer.kick(source, "Yazı <-> Text")
+```
+
+--------------------------------------------------------------------------------------------------
 ANİMASYON KSIMI SİZDE ÖRNEK VERDİM --- pek animasonlardan anlamam ama gerise bende :D.
 
 ```lua

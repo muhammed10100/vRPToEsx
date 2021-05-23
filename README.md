@@ -1,4 +1,5 @@
 # vRPToEsx Lisans Haklarınca Bana Ayittir.
+# BENİM İZNİM OLMADAN BAŞKA BİRYERDE PAYLAŞILMASI YASAK.
 
 --------------------------------------------------------------------------------------------------
 

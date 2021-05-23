@@ -128,6 +128,19 @@ vRP.tryFullPayment()
 -- test edilcek
 xPlayer.getMoney()
 ```
+
+--------------------------------------------------------------------------------------------------
+
+```lua
+vRP.setSData()
+```
+# ÜSTEKİ VRP
+
+# ALTAKİ ESX
+```lua
+ESX.SetPlayerData()
+```
+
 --------------------------------------------------------------------------------------------------
 ANİMASYON KSIMI SİZDE ÖRNEK VERDİM --- pek animasonlardan anlamam ama gerise bende :D.
 

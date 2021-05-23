@@ -28,13 +28,13 @@ end)
 --------------------------------------------------------------------------------------------------
 
 ```lua
-  self:triggerEvent("ÖrenkCektirtme")
+self:triggerEvent("ÖrenkCektirtme")
 ```
 # ÜSTEKİ VRP
 
 # ALTAKİ ESX
 ```lua
-   xPlayer.triggerEvent("ÖrenkCektirtme")
+xPlayer.triggerEvent("ÖrenkCektirtme")
 ```
 
 --------------------------------------------------------------------------------------------------

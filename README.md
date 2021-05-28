@@ -1,4 +1,6 @@
 # vRPToEsx Lisans Haklarınca Bana Ayittir.
+# MDT YAZILIM HİZMETLERİ.
+# DİSCORD : discord.gg/TcrzQS7
 # BENİM İZNİM OLMADAN BAŞKA BİR YERDE PAYLAŞILMASI YASAK.
 
 --------------------------------------------------------------------------------------------------

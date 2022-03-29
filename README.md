@@ -6,11 +6,12 @@
 --------------------------------------------------------------------------------------------------
 Not bu kısmı  en üst kısmı full silin ve esx kısmını yapıştırın 
 ```lua
-local Tunnel = module("vrp", "lib/Tunnel")
-local Proxy = module("vrp", "lib/Proxy")
+local Proxy = module('vrp', 'lib/Proxy')
+local Tunnel = module('vrp', 'lib/Tunnel')
+vRP = Proxy.getInterface('vRP')
 
-vRP = Proxy.getInterface("vRP")
-vRPclient = Tunnel.getInterface("vRP","vrp_license")
+vRPclient = Tunnel.getInterface('vRP', 'chat_commands')
+vRPclient = Tunnel.getInterface("vRP", "vrp_license")
 ```
 # ÜSTEKİ VRP
 
